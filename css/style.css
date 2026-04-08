@@ -1,0 +1,90 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Cairo', Arial, sans-serif;
+  background: #f5f7fa;
+  text-align: center;
+  direction: rtl;
+  color: #333;
+}
+
+/* Navbar */
+#navbar {
+  background: #0d1b2a;
+  color: white;
+  padding: 15px;
+}
+
+#navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Title */
+h1 {
+  margin: 30px 0 10px;
+  font-size: 28px;
+}
+
+/* Paragraph */
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+  padding: 12px 25px;
+  background: linear-gradient(135deg, #00c853, #009624);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #007e33;
+  transform: scale(1.05);
+}
+
+/* Cards (Courses) */
+.card {
+  background: white;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 15px;
+  display: inline-block;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Video */
+video {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Footer */
+#footer {
+  margin-top: 50px;
+  padding: 20px;
+  background: #0d1b2a;
+  color: white;
+}
