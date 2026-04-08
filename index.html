@@ -1,22 +1,41 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>ثمرة المستقبل</title>
+  <title>ثمرات المستقبل</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+  <!-- Navbar -->
   <div id="navbar"></div>
-  <h1>🌱 ثمرة المستقبل</h1>
+
+  <!-- Main Content -->
+  <h1>🌱 ثمرات المستقبل</h1>
   <p>منصة تعليمية للأطفال</p>
+
   <a href="courses.html">
     <button class="btn">📚 عرض الكورسات</button>
   </a>
+
+  <!-- Footer -->
   <div id="footer"></div>
+
+  <!-- Scripts -->
   <script>
-    fetch("components/navbar.html").then(res => res.text()).then(data => { document.getElementById("navbar").innerHTML = data; });
-    fetch("components/footer.html").then(res => res.text()).then(data => { document.getElementById("footer").innerHTML = data; });
+    fetch("components/navbar.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("navbar").innerHTML = data;
+      });
+
+    fetch("components/footer.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("footer").innerHTML = data;
+      });
   </script>
+
 </body>
 </html>
-<h1>🌱 ثمرات المستقبل</h1>
