@@ -1,0 +1,3 @@
+MONGO_URI=mongodb+srv://user:password@cluster.mongodb.net/AcademyDB
+JWT_SECRET=fruit_future_secure_key_2026
+PORT=5000
