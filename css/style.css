@@ -1,0 +1,15 @@
+:root { --primary: #1b5e20; --accent: #ffb300; --light: #f1f8e9; }
+body { font-family: 'Cairo', sans-serif; background: #f9fdfa; margin: 0; }
+.container { max-width: 1200px; margin: auto; padding: 20px; }
+
+/* Navbar */
+.navbar { background: var(--primary); color: white; display: flex; justify-content: space-between; padding: 15px 5%; position: sticky; top: 0; z-index: 100; }
+.btn-login { background: var(--accent); padding: 8px 20px; border-radius: 20px; text-decoration: none; color: #333; font-weight: bold; }
+
+/* Partners Animation */
+.partners-track { display: flex; gap: 50px; animation: scroll 20s linear infinite; }
+@keyframes scroll { 0% { transform: translateX(100%); } 100% { transform: translateX(-100%); } }
+
+/* Floating Icons Animation */
+.animated-icon { animation: float 3s ease-in-out infinite; }
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
