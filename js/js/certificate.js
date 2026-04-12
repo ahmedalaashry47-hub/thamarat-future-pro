@@ -1,3 +1,0 @@
-function downloadCertificate(){
-  window.print();
-}
